@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Reload Plone code",
+        "command": "plone-reload:reload"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Plone Reload",
+          "submenu": [
+            {
+              "label": "Reload",
+              "command": "plone-reload:reload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
